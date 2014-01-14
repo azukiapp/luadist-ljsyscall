@@ -1,0 +1,14 @@
+name = "ljsyscall"
+version = "0.9"
+
+desc = "LuaJIT Unix syscall FFI"
+author = "Justin Cormack"
+license = "MIT/X11"
+url = "https://github.com/justincormack/ljsyscall"
+maintainer = "Everton A Ribeiro"
+repository = "https://github.com/justincormack/ljsyscall"
+
+depends = {
+  "lua >= 5.1",
+  "lua-ev >= 1.3"
+}
